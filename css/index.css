@@ -1,0 +1,22 @@
+
+
+
+
+section:not(:target), section:target ~ #first{
+	display: none;
+}
+
+section:target {
+	display: block;
+}
+
+.main{
+	padding : 10px 50px 0 50px;
+
+}
+.segment{
+	overflow: auto;
+}
+body{
+	display: flex;
+}
